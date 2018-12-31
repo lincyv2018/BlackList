@@ -1,0 +1,46 @@
+# Map IP address to variable $limit as 0 or 1. $limit variable is then mapped to $default_rate_limit, for known addresses a value of 0 for $limit means default rate limit doesn't apply
+
+geo $limit {
+	default 1; # Unknown addresses have $limit set to 1 and are subject to default rate limit
+
+	# IP ranges below are allowed greater rate limit, $limit returned as 0
+
+	### Alamy Offices ###
+	115.248.217.168/29 0; # IN Reliance1-external
+	115.254.95.144/29 0; # IN Reliance2-external
+	61.12.43.208/29 0; # IN Tata-external
+	103.121.26.128/28 0; # IN HiPOINT
+	5.148.40.208/28 0; # MP Expo-E-external
+	51.219.87.192/28 0; # MP Gamma-external
+	89.151.93.128/27 0; # RG Colo TVH1-external
+	46.236.11.192/27 0; # RG Colo TVH2-external
+	172.26.0.0/16 0; # # AWS VPC over DirectConnect
+
+	### Botify ###
+	52.6.26.195/32 0;
+	52.203.178.227/32 0;
+	52.0.46.73/32 0;
+	52.204.9.239/32 0;
+	52.204.10.127/32 0;
+	52.204.10.46/32 0;
+	54.243.4.19/32 0;
+	52.202.222.7/32 0;
+
+	### Googlebot ###
+	64.233.160.0/19 0;
+	66.102.0.0/20 0;
+	66.249.64.0/19 0;
+	72.14.192.0/18 0;
+	74.125.0.0/16 0;
+	209.85.128.0/17 0;
+	216.239.32.0/19 0;
+
+	### Picturemaxx ###
+	80.190.109.12/31 0;
+
+}
+
+map $limit $default_rate_limit {
+	0 "";
+	1 $binary_remote_addr;
+}

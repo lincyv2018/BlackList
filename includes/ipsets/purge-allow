@@ -1,0 +1,40 @@
+# Allow cache purge commands only from internal networks
+
+geo $purge_allowed {
+	default 0;  # deny by default
+	172.16.0.0/14 1;
+	172.20.0.0/22 1;
+	172.20.4.0/23 1;
+	172.20.6.0/24 1;
+	172.20.7.0/25 1;
+	172.20.7.128/26 1;
+	172.20.7.208/28 1;
+	172.20.7.224/27 1;
+	172.20.8.0/21 1;
+	172.20.16.0/20 1;
+	172.20.32.0/19 1;
+	172.20.64.0/18 1;
+	172.20.128.0/17 1;
+	172.21.0.0/16 1;
+	172.22.0.0/15 1;
+	172.24.0.0/13 1;
+	172.25.0.0/24 1; 
+	192.168.0.0/16 1;
+	115.248.217.168/29 1; # IN Reliance1-external
+	115.254.95.144/29 1; # IN Reliance2-external
+	61.12.43.208/29 1; # IN Tata-external
+	103.121.26.128/28 1; # IN HiPOINT
+	5.148.40.208/28 1; # MP Expo-E-external
+	51.219.87.192/28 1; # MP Gamma-external
+	38.117.159.184/29 1; # NY EOT-external
+	100.12.66.0/24 1; # NY Verizon FiOS-external
+	89.151.93.128/27 1; # RG Colo TVH1-external
+	46.236.11.192/27 1; # RG Colo TVH2-external
+	212.187.244.224/27 1; # TC Colo Level3-external
+	31.221.62.224/28 1; # TC Colo Expo-E-external
+}
+
+map $request_method $purge_method {
+   PURGE $purge_allowed;
+   default 0;
+}

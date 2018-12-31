@@ -1,0 +1,119 @@
+# Single IP
+allow 205.188.107.75; # AOL
+allow 205.188.178.93; # AOL
+allow 205.188.178.110; # AOL
+allow 64.12.246.103; # AOL
+allow 64.12.253.106; # AOL
+allow 149.174.150.62; # AOL
+allow 74.123.7.250; # Art.com
+allow 74.123.7.251; # Art.com
+allow 74.123.7.252; # Art.com
+allow 82.80.210.52; # ASAP-Israel
+allow 82.166.239.138; # ASAP-Israel
+allow 82.80.210.40; # ASAP-Israel
+allow 185.18.205.38; # ASAP-Israel
+allow 185.18.204.226; # ASAP-Israel
+allow 34.201.239.39; # Bauer US
+allow 52.72.128.37; # Bauer US
+allow 54.80.40.38; # Bauer US
+allow 217.155.127.94; # Bauer US
+allow 195.39.235.20; # BauerMedia
+allow 195.39.235.27; # BauerMedia
+allow 195.39.235.161; # BauerMedia
+allow 195.39.235.162; # BauerMedia
+allow 194.181.61.212; # Bew Photo
+allow 195.248.74.1; # Burda
+allow 193.26.96.173; # Burda
+allow 193.26.98.174; # Burda
+allow 52.7.108.164; # FotoArena
+allow 23.19.133.254; # FotoArena
+allow 151.80.22.101; # Hemis
+allow 87.98.187.192; # Hemis
+allow 172.104.72.248; # Image China
+allow 172.104.80.23; # Image China
+allow 211.234.124.78; # Image China
+allow 223.130.88.94; # Image China
+allow 211.35.70.15; # Image China
+allow 112.65.142.146; # Image China
+allow 210.14.65.34; # Image China
+allow 222.68.255.156; # Image China
+allow 198.74.50.53; # Image China
+allow 139.162.2.51; # Image China
+allow 222.68.255.157; # Image China
+allow 106.187.55.229; # Image China
+allow 106.186.28.140; # Image China
+allow 80.69.76.9; # Impact
+allow 81.58.44.75; # Impact
+allow 87.255.51.138; # Impact
+allow 87.255.51.145; # Impact
+allow 87.255.51.148; # Impact
+allow 172.104.59.159; # IndiaPicture
+allow 46.28.2.183; # IPA, Italy
+allow 40.118.215.9; # Latinstock Brazil
+allow 23.92.26.123; # Latinstock Mexico
+allow 212.0.109.131; # Latinstock Spain
+allow 212.0.109.134; # Latinstock Spain
+allow 162.212.134.63; # Latinstock New_247794
+allow 46.28.2.130; # Magazinefeatures (Momasoft)
+allow 95.141.106.86; # MediaforMedical
+allow 176.154.209.231; # MediaforMedical
+allow 95.240.37.70; # Milestone
+allow 46.28.2.130; # Milestone
+allow 1.214.46.66; # Multibits Imazins
+allow 121.78.196.175; # Multibits Imazins
+allow 121.78.118.233; # Multibits Imazins
+allow 121.78.196.178; # Multibits Imazins
+allow 79.125.109.102; # Multibits Imazins
+allow 111.203.141.138; # Panorama China
+allow 176.31.233.150; # Photo12
+allow 137.74.92.58; # Photo12
+allow 90.63.248.11; # Photo12
+allow 61.109.250.50; # Photopark
+allow 175.117.145.23; # Photopark
+allow 218.144.43.126; # Photopark
+allow 192.240.171.67; # Pickawall
+allow 111.118.166.148; # Pickawall
+allow 101.0.96.146; # Pickawall
+allow 203.45.230.53; # Pickawall
+allow 124.184.113.135; # Pickawall
+allow 101.0.90.250; # Pickawall
+allow 193.86.31.42; # Profimedia
+allow 46.254.67.50; # Profimedia
+allow 58.86.56.20; # Top Photo
+allow 58.86.56.24; # Top Photo
+allow 58.86.56.7; # Top Photo
+allow 104.197.75.29; # VividAds
+allow 62.219.82.243; # Visual
+allow 62.90.146.34; # Visual
+allow 52.231.39.185; # Yooniq Images
+allow 104.46.226.113; # Yooniq Images
+allow 104.46.237.219; # Yooniq Images
+allow 121.170.155.112; # Yooniq Images
+allow 52.231.32.225; # Yooniq Images
+allow 78.46.66.8; # Mauritius Images
+allow 78.46.77.120; # Mauritius Images
+allow 148.251.44.166; # Mauritius Images
+allow 162.215.248.212; # Luxewalls
+
+# IP Range
+allow 213.192.245.0/24; # Agefotostock
+allow 64.236.82.0/23; # AOL
+allow 192.26.98.168/31; # Burda
+allow 193.26.96.0/27; # Burda
+allow 213.52.246.160/27; # diomedia
+allow 123.58.9.128/26; # Image China
+allow 82.204.37.96/27; # iMedia
+allow 81.58.44.76/31; # Impact
+allow 195.140.242.0/24; # Impact
+allow 106.38.54.224/28; # Panorama China
+allow 121.52.223.0/26; # Panorama China
+allow 121.52.223.64/28; # Panorama China
+allow 121.52.223.80/31; # Panorama China
+allow 80.190.109.0/24; # PictureMaxx
+allow 193.86.66.192/26; # Profimedia Live
+allow 84.16.167.32/27; # Scanpix
+allow 212.99.250.104/29; # Scanpix
+allow 145.60.16.32/27; # Scanpix
+allow 5.153.73.128/25; # Macmillan Education
+allow 213.221.85.0/24; # Imageselect
+allow 45.75.203.0/26; # Diomedia

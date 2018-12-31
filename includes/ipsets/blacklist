@@ -1,0 +1,195 @@
+# Taken from TMG export 25/09/2017
+deny 104.145.225.178; # password reset
+deny 104.145.225.90; # Blocked on 20Aug17 Ref #191180
+deny 107.182.226.5; # Duplicate registrations #193824 
+deny 108.170.19.139;
+deny 108.61.224.66; # #151077
+deny 112.213.106.185;
+deny 112.213.99.176; # #177980
+deny 119.81.135.2; # #172561
+deny 119.81.253.214; # #172561 
+deny 122.152.174.99; # #177980
+deny 176.216.255.162; # password reset attempts
+deny 178.162.205.100; # #193824
+deny 198.204.243.243; # #147532 http://www.webplatformtools.tk/alamy/default.asp strume.ezregency.com
+deny 213.136.78.68; # fraudulent activity
+deny 37.203.209.2; # #172561
+deny 37.21.229.60; # blocked on 20Aug 17 Ref #191171
+deny 5.62.39.19;
+deny 5.62.39.2;
+deny 5.62.43.3;
+deny 5.62.57.6;
+deny 59.188.224.60; # #177980
+deny 62.128.217.97;
+deny 69.94.10.18;
+deny 69.94.10.20;
+deny 69.94.10.21;
+deny 69.94.10.22;
+deny 70.128.101.9; # #63363
+deny 77.234.46.204; # Fraud Reg6
+deny 77.234.46.205; # Fraud Reg4
+deny 98.113.143.27; # # 63363
+deny 188.65.116.151; # Fraudulent activity #132587
+deny 176.106.47.172; # Blocked 37
+deny 5.63.151.84; # Blocked 38
+deny 109.254.42.99; # Blocked 39
+deny 194.150.168.95; # Blocked 45
+deny 62.37.237.16; # Blocked IP - login fradulant 02
+deny 5.39.10.71; # Blocked IP - login fraudulant 03
+deny 176.192.160.14; # #28988
+deny 182.65.138.51; # #111091 & #111089
+deny 62.37.237.15; # Blocked IP- login Fradulant 01
+deny 113.35.71.250; # Copied From Proxy 3
+deny 216.75.2.64; # Copied From Proxy 3
+deny 24.218.205.40; # Copied From Proxy 3
+deny 68.4.154.153; # Copied From Proxy 3
+deny 76.122.187.182; # Copied From Proxy 3
+deny 76.210.63.5; # Copied From Proxy 3
+deny 91.35.242.49; # Copied From Proxy 3
+deny 96.39.149.232; # Copied From Proxy 3
+deny 99.161.181.103; # Copied From Proxy 3
+deny 176.192.175.151; # as per the request from caroline
+deny 89.70.207.139; # Blocked 11
+deny 178.149.68.57; # Blocked 12
+deny 88.169.90.178; # Blocked 13
+deny 78.153.131.14; # Blocked 14
+deny 86.152.56.12; # Blocked 15
+deny 31.61.138.209; # Blocked 16
+deny 198.211.33.114; # Blocked 17
+deny 198.27.70.109; # Blocked 18
+deny 198.100.108.210; # As per ticket 31382 raised by caroline.
+deny 198.136.25.82; # #31395
+deny 98.126.165.186; # #31395
+deny 192.159.160.69; # #31395
+deny 66.90.73.44; # Blocked 23
+deny 95.141.47.194; # Blocked 24
+deny 70.39.66.59; # #33871
+deny 111.92.59.232; # KC saw suspicious activity 2014-04-11
+deny 46.165.210.1; # Blocked 36
+deny 188.161.66.183; # #60625
+deny 23.235.227.106; # #60625
+deny 45.58.36.21; # #109965
+deny 62.210.37.82; # #113412
+deny 190.130.237.94; # #138361
+deny 86.29.5.140; # Acunetix
+deny 64.34.163.107; # Peer1NY-01
+deny 64.34.164.48; # Peer1NY-02
+deny 64.34.164.52; # Peer1NY-03
+deny 72.51.37.104; # Peer1NY-04
+deny 72.51.42.117; # Peer1NY-05
+deny 72.51.43.44; # Peer1NY-06
+deny 77.232.10.34; # Russia01
+deny 66.135.32.83; # ServerBeachLA-01
+deny 69.174.246.216; # ServerBeachLA-02
+deny 69.174.247.199; # ServerBeachLA-03
+deny 125.24.219.147; # SQLinjection-01
+deny 84.242.199.237; # SQLinjection-02
+deny 85.238.111.69; # SQLinjection-03
+deny 37.59.164.99; # #107369
+deny 58.186.101.238; # VN1
+deny 118.68.142.129; # VN2
+deny 213.8.188.100; # Blocked 47
+deny 63.141.230.42; # #183377
+deny 63.141.230.94; # #183377
+deny 174.47.77.8; # #183876 & #183703 Fraudulent activity
+deny 107.167.229.84; # #183876 & #183703 Fraudulent activity
+deny 63.141.230.112; # Fraudelent attempt
+deny 63.141.237.75; # Fraudelent attempt #183588 - 1
+deny 63.141.237.5; # Fraudelent attempt #183588 - 2
+deny 63.141.230.69; # Fraudelent attempt2
+deny 63.141.230.56; # Fraudelent attempt3
+deny 63.141.230.76; # Fraudelent attempt5
+deny 163.172.5.142; # imagewarm.faith source IP
+deny 185.72.176.30; # imagewarm.faith sourceIP 02
+deny 54.241.244.19; # IP Block request #170823
+deny 204.29.115.149; # #151654 : fraudulent activity
+deny 5.152.210.251; # ktrivedi@uk.jw.org Fraudulent
+deny 5.62.62.0/24; # fraud
+deny 68.235.53.60; # ktrivedi@uk.jw.org Fraudulent 
+deny 77.234.46.0/24; # Fraud Reg7
+deny 96.68.0.57; # #191513
+deny 95.220.24.133; # #97642
+deny 128.204.30.29; #
+deny 178.149.65.125; # Blocked 41
+deny 95.211.226.37; # #60411
+deny 207.244.89.112; # Blocked 40
+deny 37.57.231.118; # #126504
+deny 176.193.237.204; #
+deny 178.150.15.55; # #126504
+deny 45.56.150.12; # #137375
+deny 77.141.73.3; # Blocked 38
+deny 95.189.180.116; # #144083
+deny 91.207.5.2; # Blocked 17
+deny 91.207.6.102; # Blocked 26
+deny 91.207.7.110; # Blocked 27
+deny 91.207.7.153; # Blocked 28
+deny 91.207.7.162; # Blocked 29
+deny 91.207.7.165; # Blocked 30
+deny 91.207.7.33; # Blocked 31
+deny 91.207.7.149; # Blocked 33
+deny 91.207.5.10; # Blocked 34
+deny 91.207.4.9; # Blocked 35
+deny 146.185.31.219; # #60189
+deny 46.19.227.249; # New registration suspected fraudulent credit card activity (03/12/13)
+deny 46.19.227.250/31; # New registration suspected fraudulent credit card activity (03/12/13)
+deny 46.19.227.252; # New registration suspected fraudulent credit card activity (03/12/13)
+deny 209.126.110.113; # #78451
+deny 104.223.95.89; # Fraud Alerts 3
+deny 63.141.230.61; # Fraud alerts 4
+deny 63.141.230.6; # Fraud alerts 5
+deny 50.31.30.123; # Fraud alerts 7
+deny 64.187.237.131; # Fraud alerts 8
+deny 5.62.49.10; # Fraud alerts
+deny 173.224.116.231; #183876 & #183703 Fraudulent activity
+deny 173.224.116.232; #183876 & #183703 Fraudulent activity
+deny 5.62.49.11; # Fraud alerts2
+deny 5.62.49.22/31; # #183876 & #183703 Fraudulent activity
+deny 5.62.49.24/31; # #183876 & #183703 Fraudulent activity
+deny 31.177.183.57; # Fraud alerts 5
+deny 50.93.206.164; # #151658
+deny 93.95.102.162; # #132114s
+deny 104.238.185.1; # #156367
+deny 185.47.228.86/31; # #175531 Olycom - Block IP
+deny 185.47.228.88/31; # #175531 Olycom - Block IP
+deny 23.226.131.228; # #203337 23/11/2017
+deny 23.226.132.230; # #203337 23/11/2017
+deny 35.188.163.169; # #209603 22/01/2018
+deny 95.224.167.1; # #215626 14/02/2018
+deny 37.60.136.164; # #216500 26/02/2018
+deny 185.206.80.77; # #219530 20/03/2018
+deny 134.249.163.27; # #219530 20/03/2018
+deny 193.0.207.145; # #219530 20/03/2018
+deny 213.24.126.123; # #219530 20/03/2018
+deny 66.85.185.82; # 219704 21/03/2018
+deny 151.29.19.148; # 219702 27/03/2018
+deny 66.85.140.5; # 219702 27/03/2018
+deny 185.159.156.18; # 228559 23/05/2018
+deny 181.42.4.134; # 228455 23/05/2018
+deny 5.62.49.0/25; #230788 06/06/2018
+deny 151.106.60.237; #239882 06/09/2018
+deny 142.93.167.14; #240780 17/09/2018
+deny 104.197.228.201; #244200 24/10/2018
+deny 213.24.133.37; #247722 29/11/2018
+deny 176.57.76.56; #247722 29/11/2018
+deny 109.18.81.109; #247722 29/11/2018
+deny 178.159.37.93; #247722 29/11/2018
+deny 46.118.127.109; #248537 05/12/2018
+deny 46.119.127.157; #248537 05/12/2018
+deny 178.159.37.97; #248537 05/12/2018
+deny 178.159.37.39; #248537 05/12/2018
+deny 5.167.7.14; #248537 05/12/2018
+deny 184.22.175.142; #248537 05/12/2018
+deny 147.135.251.124; #248537 05/12/2018
+deny 109.156.179.171; #248537 05/12/2018
+deny 61.164.252.36; #249149 11/12/2018
+deny 109.252.87.72; #249317 12/12/2018
+deny 5.58.56.100; #249317 12/12/2018
+deny 184.22.188.5; #249317 12/12/2018
+deny 109.156.107.81; #249317 12/12/2018
+deny 176.57.76.54; #249317 12/12/2018
+deny 1.0.150.106; #251680 28/12/2018
+deny 1.0.148.216; #251680 28/12/2018
+deny 46.173.211.160; #251680 28/12/2018
+deny 1.0.135.65; #251680 28/12/2018
+deny 1.0.154.57; #251680 28/12/2018
+deny 1.0.132.221; #251680 28/12/2018
